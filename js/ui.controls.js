@@ -42,11 +42,11 @@ var d3Graphs = {
 
     setCountry: function(country) {
         $("#hudButtons .countryTextInput").val(country);
-        d3Graphs.updateViz();
+       // d3Graphs.updateViz();
     },
     initGraphs: function() {
         this.showHud();
-        this.drawBarGraph();
+        //this.drawBarGraph();
         this.drawHistogram();
     },
     showHud: function() {
